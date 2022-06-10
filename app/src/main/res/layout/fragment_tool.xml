@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Mainfragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <Button
+            android:id="@+id/frag_tool_btn_meiridaka"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_selector"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="每日打卡"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/frag_tool_btn_xiguan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_selector"
+            android:layout_weight="1"
+            android:text="健康习惯"
+            android:textSize="20dp">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:text="饮食摄入:"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="null"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="千卡"
+            android:textSize="20dp">
+
+        </TextView>
+        <Button
+            android:text="记录"
+            android:id="@+id/frag_tool_btn_yinshi"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_selector"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:text="运动消耗:"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/frag_tool_xiaohao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="null"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="千卡"
+            android:textSize="20dp">
+
+        </TextView>
+        <Button
+            android:text="记录"
+            android:id="@+id/frag_tool_btn_yundong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_selector"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:text="体重记录:"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/frag_tool_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="null"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="斤重"
+            android:textSize="20dp">
+
+        </TextView>
+        <Button
+            android:text="记录"
+            android:id="@+id/frag_tool_btn_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_selector"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:text="腰围记录:"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/frag_tool_yaowei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="null"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="厘米"
+            android:textSize="20dp">
+
+        </TextView>
+        <Button
+            android:text="记录"
+            android:id="@+id/frag_tool_btn_yaowei"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_selector"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+</FrameLayout>
